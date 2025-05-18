@@ -1,0 +1,190 @@
+/* Tarot Styles */
+
+.message {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.message-field {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.box-2 {
+  background-color: transparent;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.box-3 {
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid black;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.stripe-1 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.stripe-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+  color: var(--light-green);
+  font-size: 2rem;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+td {
+  padding: 0.3rem 1rem 0.3rem 1rem;
+}
+
+table a {
+  text-decoration: none;
+  color: var(--violet);
+  text-shadow: 15px 15px 15px var(--black);
+}
+
+table a:hover {
+  color: var(--white);
+  font-size: 1.6rem;
+}
+
+
+
+
+
+
+/* element stlyes */
+
+.air {
+  color: darkgray;
+}
+
+.water {
+  color: aqua;
+  font-size: 1.3rem;
+}
+
+.earth {
+  color: var(--green);
+  font-size: 1.3rem;
+}
+
+.fire {
+  color: var(--orange);
+}
+
+.ether {
+  color: var(--violet);
+}
+
+
+
+
+
+
+.test-card {
+  background: url('../img/starrysky2.jpeg');
+  margin: 0;
+  padding: 0;
+  height: 525px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card-box {
+  background-color: var(--dkgray);
+  margin: 0;
+  padding: 0;
+  height: 525px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.title {
+  background-color: var(--black);
+  border-radius: 24px 24px 0px 0px;
+  padding: 1rem 0rem 1rem 0rem;
+  align-self: start;
+}
+
+.card-box h3 {
+  color: var(--light-green);
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  color: var(--aqua);
+  font-family: Trebuchet MS;
+  font-size: 1.3rem;
+}
+
+.footer {
+  background-color: var(--black);
+  border-radius: 0px 0px 24px 24px;
+  padding: 1rem 0rem 1rem 0rem;
+  align-self: end;
+}
+  
+@media (max-width: 991px) {
+  
+  .icon-xl {
+    font-size: 3.5rem;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+  }
+  
+  #quote {
+    font-size: 2.5rem;
+  }
+  
+  .intro {
+    font-size: 1.3rem;
+  }
+  
+  #tarot-tables {
+    display: none;
+  }
+  
+  .test-card {
+    height: 200px;
+    width: 125px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  
+  .icon-xl {
+    font-size: 2.5rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  #quote {
+  font-size: 2rem;
+  }
+  
+  .intro {
+    font-size: 1rem;
+  }
+  
+}
+
+
+
